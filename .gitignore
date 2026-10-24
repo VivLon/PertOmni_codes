@@ -1,0 +1,16 @@
+# data and runs (symlinks or PERTOMNI_DATA / PERTOMNI_SCRATCH / PERTOMNI_RESULTS)
+/data
+/scratch
+/results
+# Python and tool caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+# Jupyter
+.ipynb_checkpoints/
+# figures written by the notebooks
+notebooks/*/figures/
